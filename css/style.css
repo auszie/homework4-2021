@@ -73,8 +73,8 @@ td{
 .colhead{
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px;
   text-align: center;
+  padding: 10px;
   background-color: #7e0820;
   text-transform: uppercase;
 
@@ -106,6 +106,7 @@ tr:hover{
 /*Req 7*/
 table{
   border: 2px solid black;
+  border-collapse: separate;
   border-radius: 10px;
   margin-left: auto;
   margin: auto;
@@ -119,6 +120,14 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px;
 }
 
+table tr:last-child td:first-child{
+  border-bottom-left-radius: 10px;
+}
+
+table tr:last-child td:last-child{
+  border-bottom-right-radius: 10px;
+}
+
 
 /*Req 8*/
 footer{
@@ -127,7 +136,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: fixed;
+  position: absolute;
   bottom: 0;
 }
 
