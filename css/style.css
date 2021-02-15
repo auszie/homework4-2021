@@ -117,11 +117,6 @@ thead tr:last-child th:last-child{
   border-top-right-radius: 10px;
 }
 
-table.roundedCorners {
-  border-radius: 10px;
-
-}
-
 
 /*Req 8*/
 footer{
