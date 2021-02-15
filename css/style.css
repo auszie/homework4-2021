@@ -55,7 +55,6 @@ a{
 }
 
 /*Req 5*/
-/*Add selector and rule here*/
 :focus{
   border-style: dashed;
   border-width: 3px;
@@ -84,7 +83,9 @@ td{
 .rowhead{
   border-top: 2px solid black;
   border-right: 2px solid black;
-  text-align: center;
+  padding: 10px;
+  font-weight: unset;
+
 
 }
 
